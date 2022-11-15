@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+  
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script src="https://www.paypal.com/sdk/js?client-id=Ac_wt68Db76-gwhkNErLbyRzqpuCU5x_RtpyB2G8ThBAmJeiKg8BQAldo5yVvsI9IvwJUw7a6oQHVcl2&currency=CLP"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="styles.css">
+    <link rel = "stylesheet" href="styles2.css">
+    <link rel = "stylesheet" href="App.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.form.io/formiojs/formio.full.min.css">
+    <script src="https://cdn.form.io/formiojs/formio.full.min.js"></script>
+
+
+    <title>React app diseño</title>
+  </head>
+  <body>
+
+
+
+    
+    <header>
+      <img style= "border-radius:10px"; src="https://creactitud.com/wp-content/uploads/2013/02/diseno-logotipo-la-tienda-del-disfraz.jpg" alt="logo" class="logo la tienda del disfraz" width=144px height=100px>
+      <nav>
+          <ul class="nav_links">
+              <li><a href= "https://www.instagram.com/starbucks/">instagram</a> </li>
+              <li><a  href="#">sobre nosotros</a> </li>
+              <li><a  href= "#">projectos</a> </li>
+          </ul>
+      </nav>
+      <a href="#" class="cta"><button>Contacto</button></a>
+  </header>
+  <section aria-label="fotos instagram">
+      <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev"> &#11164;</button>
+          <button class="carousel-button next" data-carousel-button="next"> &#11166;</button>
+      <ul data-slides>
+          <li class="slide" data-active>
+              <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/W7THEB7WWJHAXJNY774W7TY7AY.png" alt= "Disfraz #1">
+          </li>
+          <li class="slide">
+              <img src="https://variety.com/wp-content/uploads/2016/07/superman-1st-look-supergirl.jpg?crop=0px%2C291px%2C1600px%2C891px&resize=681%2C383" alt= "Disfraz #2">
+          </li>
+          <li class="slide">
+            <img src="https://www.diarioconvos.com/wp-content/uploads/2021/11/FC-890rXoAwD0XW-828x548.jpg" alt= "Disfraz #3">
+        </li>
+      </ul>
+  </div>
+  </section>
+
+  
+
+  <script>alert("Bienvenido a la pagina de la tienda del disfraz");</script>
+  
+
+<!---->
+
+<h4 style="color: azure">Elija su compra aqui abajo</h4>
+
+
+<div id="formio"></div>
+
+
+
+<script type="text/javascript">
+  window.onload = function() {
+    Formio.createForm(document.getElementById('formio'), 'https://tetudntagfnxubg.form.io/compra');
+  };
+</script>
+
+
+
+  <div class="modal-container">
+      <div class="modal">
+          <h1 style="color:rgb(147, 147, 168);">Muchas gracias!</h1>
+          <p style="color:rgb(169, 156, 156);">Le agradecemos por su compra de nuestros disfraces. Por favor, aprete el boton que dice "CHECKOUT" 
+            para elejir su metodo de pago. Este puede ser o PAYPAL o TARJETA.
+              </p>
+
+      </div>
+  </div>
+
+
+  <h1 style="color:rgb(147, 147, 168);">Muchas gracias!</h1>
+  <p style="color:rgb(169, 156, 156);">Le agradecemos por su compra de nuestros disfraces. Por favor, aprete el boton que dice "CHECKOUT" 
+          para elejir su metodo de pago. Este puede ser o PAYPAL o TARJETA.
+  </p>
+    
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+  </body>
+</html>
